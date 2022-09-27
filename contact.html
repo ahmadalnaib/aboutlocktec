@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="owl.carousel.min.css">
+<link rel="stylesheet" href="owl.theme.default.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Locktec-D-One</title>
+</head>
+<body>
+
+  <!-- Start the  Navbar -->
+  <header class="navbar-margin">
+
+    <nav class="navbar fixed-top navbar-expand-lg  bg-white p-4 ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img  class="lazyload" width="100px" data-src="./img/lockteclogo.webp" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+            <li class="nav-item pe-1">
+              <a class="nav-link text-muted  fw-bold nav-f  text-uppercase" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown  pe-1">
+              <a class="nav-link dropdown-toggle text-muted     fw-bold nav-f text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Anwendung
+              </a>
+              <ul class="dropdown-menu p-2" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item text-muted text-uppercase  fw-bold nav-f mb-2 text-uppercase " href="#">Verkehrsbetriebe</a></li>
+                <li><a class="dropdown-item text-muted text-uppercase fw-bold nav-f mb-2 text-uppercase" href="#">Medizin</a></li>
+                <li><a class="dropdown-item text-muted text-uppercase fw-bold nav-f mb-2 text-uppercase" href="#">Einzelhandel</a></li>
+                <li><a class="dropdown-item text-muted text-uppercase fw-bold nav-f mb-2 text-uppercase" href="#">Öffentlicher Sektor/Verwaltung</a></li>
+                <li><a class="dropdown-item text-muted text-uppercase fw-bold nav-f mb-2 text-uppercase" href="#">Immobilien Und Wohnen</a></li>
+                <li><a class="dropdown-item text-muted text-uppercase fw-bold nav-f mb-2 text-uppercase" href="#">Smart Cities Und Smart Terminals</a></li>
+                <li><a class="dropdown-item text-muted text-uppercase fw-bold nav-f mb-2 text-uppercase" href="#">Tourismus Und Freizeit</a></li>
+                <li><a class="dropdown-item text-muted text-uppercase fw-bold nav-f mb-2 text-uppercase" href="#">SICHERHEIT UND MILITÄR</a></li>
+                <li><a class="dropdown-item text-muted text-uppercase fw-bold nav-f mb-2 text-uppercase" href="#">INDUSTRIE UND BAU</a></li>
+                <li><a class="dropdown-item text-muted text-uppercase fw-bold nav-f mb-2 text-uppercase" href="#">AUSSTELLUNGEN/VERANSTALTUNGEN</a></li>
+               
+              </ul>
+            </li>
+            <li class="nav-item  pe-1">
+              <a class="nav-link  text-muted  fw-bold nav-f  text-uppercase" href="./drag.html">Konfigurator</a>
+            </li>
+            <li class="nav-item dropdown  pe-1">
+              <a class="nav-link dropdown-toggle  text-muted  fw-bold nav-f text-uppercase" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Produkte
+              </a>
+              <ul class="dropdown-menu p-2" aria-labelledby="navbarDropdown">
+                
+                <li><a class="dropdown-item  text-muted  fw-bold nav-f mb-2 text-uppercase" href="#">Cool Lockers</a></li>
+                <li><a class="dropdown-item  text-muted  fw-bold nav-f mb-2 text-uppercase " href="#">Locksafe</a></li>
+                <li><a class="dropdown-item  text-muted  fw-bold nav-f mb-2 text-uppercase " href="#">ServiceBox</a></li>
+                <li><a class="dropdown-item  text-muted  fw-bold nav-f mb-2 text-uppercase " href="#">Smartterminal</a></li>
+                <li><a class="dropdown-item  text-muted  fw-bold nav-f mb-2 text-uppercase " href="#">Velosafe</a></li>
+                <li><a class="dropdown-item  text-muted  fw-bold nav-f mb-2 text-uppercase " href="#">ServiceBox Basic</a></li>
+                <li><a class="dropdown-item  text-muted  fw-bold nav-f mb-2 text-uppercase " href="#">Locksafe Mechanic</a></li>
+                <li><a class="dropdown-item  text-muted  fw-bold nav-f mb-2 text-uppercase " href="#">Servicepoint</a></li>
+               
+              </ul>
+            </li>
+          
+            <li class="nav-item  pe-1">
+              <a class="nav-link  text-muted  fw-bold nav-f text-uppercase" href="software.html">Software</a>
+            </li>
+            <li class="nav-item  pe-1">
+              <a class="nav-link  text-muted  fw-bold nav-f text-uppercase" href="about.html">Über uns</a>
+            </li>
+            <li class="nav-item  pe-1">
+              <a class="nav-link  text-muted  fw-bold nav-f text-uppercase" href="contact.html">Kontakt</a>
+            </li>
+        
+          </ul>
+         
+          <div class="dropdown">
+            <i class="bi bi-translate "></i>   <a class="btn btn-light dropdown-toggle text-uppercase" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                DE
+            </a>
+        
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+             
+              <li><a class="dropdown-item text-uppercase" href="">En</a><li>
+             
+            </ul>
+          </div>
+
+          
+          <li class="nav-link ms-4 pe-auto " data-bs-toggle="modal" data-bs-target="#exampleModal">
+           <a href="#" class="nav-link ">  <i class="bi bi-search"></i></a>
+          
+            </li>
+        
+        </div>
+      </div>
+    </nav>
+    <div class="d-flex flex-column flex-shrink-0 bg-dark ms-auto fix fixed-top sidebar" style="width: 14.5rem;">
+     
+      <ul class="nav nav-pills nav-flush flex-column mb-auto text-center" >
+        <li class="nav-item">
+          <a href="#" class="nav-link border-bottom text-white" aria-current="page"  title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+            <div class="row">
+              <div class="col-md-4 lock-icon">
+                
+                <i class="bi bi-envelope-fill fa-2x"></i>
+              </div>
+              <div class="col-md-6 text-center align-content-center justify-content-center mt-2">
+
+                <h4 class="">Email </h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link border-bottom text-white" aria-current="page"  title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+            <div class="row">
+              <div class="col-md-4 lock-icon">
+                
+                <i class="bi bi-telephone-fill fa-2x"></i>
+              </div>
+              <div class="col-md-6 text-center align-content-center justify-content-center mt-2">
+
+                <h4 class="">Call </h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link border-bottom text-white" aria-current="page"  title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+            <div class="row">
+              <div class="col-md-4 lock-icon">
+                
+                <i class="bi bi-megaphone-fill fa-2x"></i>
+              </div>
+              <div class="col-md-6 text-center align-content-center justify-content-center mt-2">
+
+                <h4 class="">Actions </h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link border-bottom text-white" aria-current="page"  title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+            <div class="row">
+              <div class="col-md-4 lock-icon">
+                
+                <i class="bi bi-newspaper fa-2x"></i>
+              </div>
+              <div class="col-md-6 text-center align-content-center justify-content-center mt-2">
+
+                <h4 class="">News </h4>
+              </div>
+            </div>
+          </a>
+        </li>
+        
+       
+      
+      
+     
+       
+      </ul>
+    
+    </div>
+  </header>
+  <!-- End the Navbar -->
+  
+  <!-- Start  model for search -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Search</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="https://duckduckgo.com/" method="get" id="form-search">
+            <div class="mb-3">
+             
+              <input class="form-control me-2" type="search" name="q" id="input-search" placeholder="Search" aria-label="Search">
+              <input type="hidden" name="sites" value="your-domain.com">
+            </div>
+            <div class="mb-3">
+              <div id="search-results" class="m-4 p-4"></div>
+            </div>
+          </form>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+         
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Model -->
+<!-- contact -->
+
+<section id="contact" class="">
+
+  
+  <div class="container form-box mt-5">
+    <div >
+     <div class="row  border">
+      <div class="col-md-4 p-4 bg-danger text-white ">
+       <div class="d-flex flex-column pt-5  h-100">
+        <h3 class="fw-bold size-2 pb-1"> LockTec GmbH</h3>
+        <h3 class="pb-1">Schließfachsysteme</h3>
+        <h3 class="pb-1">Johann-Georg-Herzog-Strasse 19</h3>
+        <h3 class="pb-1">D-96369 Weissenbrunn</h3>
+        <h3 class="pb-1"><i class="bi bi-telephone"></i> +49 9261 6075 90</h3>
+        <h3 class="pb-1"><i class="bi bi-printer"></i> +49 9261 6075 10</h3>
+        <h3><i class="bi bi-envelope"></i> <a class="text-white" href="">info@locktec.com</a></h3>
+       </div>
+      </div>
+       <div class="col-md-8  rounded-3 p-4">
+        <h2 class="p-5 fw-bolder text-center size-2">Contact Locktec Deutschland</h2>
+        <form class="row g-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Vorname</label>
+            <input type="text" class="form-control p-3" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Nachname</label>
+            <input type="text" class="form-control p-3" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Firma</label>
+            <input type="text" class="form-control p-3" id="inputAddress" >
+          </div>
+          <div class="col-md-3">
+            <label for="inputCity" class="form-label">Land</label>
+            <input type="text" class="form-control p-3" id="inputCity">
+          </div>
+       
+          <div class="col-md-3">
+            <label for="inputCity" class="form-label">Ort</label>
+            <input type="text" class="form-control p-3" id="inputCity">
+          </div>
+          <div class="col-md-4">
+            <label for="inputState" class="form-label">Straße</label>
+            <input type="text" class="form-control p-3" id="inputCity">
+          </div>
+          <div class="col-md-2">
+            <label for="inputZip" class="form-label">Plz</label>
+            <input type="text" class="form-control p-3" id="inputZip">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Telefon</label>
+            <input type="email" class="form-control p-3" id="inputAddress" >
+          </div>
+         
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Email</label>
+            <input type="email" class="form-control p-3" id="inputAddress" >
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Nachricht</label>
+          <textarea name="" id="" class="form-control" cols="30" rows="10"></textarea>
+          </div>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="submit" class="btn btn-danger p-3">Versenden</button>
+          </div>
+        </form>
+      </div>
+
+     </div>
+    </div>
+  
+  </div>
+
+  </section>
+
+
+
+  <section class="bg-secondary-main p-4 my-5 text-dark">
+  <div class="container mt-5 ">
+    <h2 class="mb-4 size-1 fw-bold">LockTec Partner</h2>
+
+    <div class="row">
+      <div class="col-md-4 bg-white border p-5 rounded-1">
+      
+        <h3 class="text-danger pb-1">In Großbritannien und Irland</h3>
+        <h3 class="pb-1">LockTec Ltd.</h3>
+        <h3  class="pb-1">Units 7-11</h3>
+        <h3  class="pb-1">Midlothian Innovation Centre</h3>
+        <h3  class="pb-1">Pentlandfield, Roslin</h3>
+        <h3  class="pb-1">Midlothian EH25 9RE</h3>
+        <h3  class="pb-1">UK - SCOTLAND</h3>
+        <h3  class="pb-1">Telefon +44 (0) 131 445 7788</h3>
+        <h3  class="pb-1">Fax +44 (0) 131 445 7527</h3>
+        <h3 class="pb-1">E-Mail <a class="text-danger" href="">info@locktec.co.uk</a></h3>
+       
+      </div>
+      <div class="col-md-4 bg-danger text-white border p-5 rounded-1">
+        <h3 class="text-dark pb-1">In Belgien</h3>
+        <h3  class="pb-1">DECATEL S.A.</h3>
+        <h3  class="pb-1">Bernard Decamp</h3>
+        <h3  class="pb-1">Rue de la Technologie 31</h3>
+        <h3  class="pb-1">BE- 1082 Bruxelles</h3>
+        <h3  class="pb-1">
+          Telefon +32 (0) 2469 0090</h3>
+        <h3  class="pb-1">UK - SCOTLAND</h3>
+        <h3  class="pb-1">Fax +32 (0) 2469 0607</h3>
+        <h3  class="pb-1">E-Mail <a class="text-dark" href="mailto">decatel@locktec.com</a>
+        </h3>
+        <h3  class="pb-1">Web <a href="" class="text-dark">https://www.decatel.be</a></h3>
+       
+      </div>
+      <div class="col-md-4 bg-white border p-5 rounded-1">
+        <h3 class="text-danger pb-1">In der Schweiz</h3>
+        <h3  class="pb-1">INTECH-ICS AG</h3>
+        <h3  class="pb-1">Fabrikstrasse 2</h3>
+        <h3  class="pb-1">CH - 8360 Eschlikon</h3>
+        <h3  class="pb-1">Telefon +41 (0) 71 970 01 71</h3>
+        <h3  class="pb-1">Fax +41 (0) 71 971 39 77</h3>
+        <h3  class="pb-1">E-Mail <a class="text-danger" href=""> info@intech.ch</a></h3>
+        <h3  class="pb-1"><a class="text-danger" href="">Web https://www.intech.ch</a></h3>
+       
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-md-4 bg-white border p-5 rounded-1">
+        <h3 class="text-danger pb-1">In Australien</h3>
+        <h3  class="pb-1">Pacific Locker Solutions Pty. Ltd.</h3>
+        <h3  class="pb-1">Stephen Spring</h3>
+        <h3  class="pb-1">Suite 12, 13-25 Church Street</h3>
+        <h3  class="pb-1">Hawthorn VIC 3122</h3>
+        <h3  class="pb-1">Australien</h3>
+        <h3  class="pb-1">E-Mail <a class="text-danger" href="">locktecpacific@locktec.com</a></h3>
+        <h3  class="pb-1">Web <a class="text-danger" href=""> https://www.locktecpacific.com</a></h3>
+       
+      </div>
+      <div class="col-md-4 bg-danger text-white border p-5 rounded-1">
+        <h3 class="text-dark pb-1">In Saudi Arabien</h3>
+        <h3  class="pb-1">Smart systems</h3>
+        <h3  class="pb-1">Lihaibi Brothers Group</h3>
+        <h3  class="pb-1">Mr. Mohammed S. Al-Lihaibi</h3>
+        <h3  class="pb-1">Makkah</h3>
+        <h3  class="pb-1">
+          Telefon +966 (012) 5381456</h3>
+        <h3  class="pb-1">Fax +966 (012) 5381518</h3>
+        <h3  class="pb-1">E-Mail <a class="text-dark" href="">lbg-lockers@locktec.com</a></h3>
+        <h3  class="pb-1">Web <a class="text-dark" href="">https://www.lbgtec.com</a>
+        </h3>
+      
+       
+      </div>
+      <div class="col-md-4 bg-white border p-5 rounded-1">
+        <h3 class="text-danger pb-1">In Frankreich</h3>
+        <h3  class="pb-1">LockTec France</h3>
+        <h3  class="pb-1">Richard Plusse</h3>
+        <h3  class="pb-1">Directeur Commercial France</h3>
+        <h3  class="pb-1">Telefon +41 (0) 71 970 01 71</h3>
+        <h3  class="pb-1">Tel: +33 6 07 97 72 46</h3>
+        <h3  class="pb-1">E-Mail <a class="text-danger" href="#">france@locktec.com</a></h3>
+       
+       
+      </div>
+    </div>
+      <div class="col-md-6">
+
+      </div>
+     
+
+     <div class="row mt-3 text-center bg-white  p-5 rounded-1 border ">
+      <div class="col-md-12">
+        <h3 class="text-danger pb-1">Wir suchen Vertreter unserer Marke in:</h3>
+        <h3  class="pb-1">Spanien</h3>
+        <h3  class="pb-1">
+          Italien
+        </h3>
+        <h3  class="pb-1">Österreich</h3>
+        <h3  class="pb-1">Wir freuen uns auf Ihre Bewerbung!</h3>
+        <h3  class="pb-1">E-Mail <a class="text-danger" href="">info@locktec.com</a> </h3>
+      </div>
+     </div>
+  </div>
+</section>
+
+
+<!-- end contact section -->
+
+<!-- Foooter  -->
+
+<!-- footer -->
+<section id="footer" class="bg-secondary-main">
+
+  <div class="container">
+    <footer class="py-5">
+      <div class="row">
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Navigation</h5>
+          <ul class="nav flex-column">
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">Home</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">Anwendung</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">Konfigurator</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">Software</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">Über uns</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">Kontakt</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">News</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">Actions</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">Service</a></li>
+            
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Produkte</h5>
+          <ul class="nav flex-column">
+            <li><a  class="nav-link p-0 text-muted mb-2 p-0" href="#">Cool Lockers</a></li>
+            <li><a  class="nav-link p-0 text-muted mb-2 p-0" href="#">Locksafe</a></li>
+            <li><a  class="nav-link p-0 text-muted mb-2 p-0" href="#">ServiceBox</a></li>
+            <li><a  class="nav-link p-0 text-muted mb-2 p-0" href="#">Smartterminal</a></li>
+            <li><a  class="nav-link p-0 text-muted mb-2 p-0" href="#">Velosafe</a></li>
+            <li><a  class="nav-link p-0 text-muted mb-2 p-0" href="#">ServiceBox Basic</a></li>
+            <li><a  class="nav-link p-0 text-muted mb-2 p-0" href="#">Locksafe Mechanic</a></li>
+            <li><a  class="nav-link p-0 text-muted mb-2 p-0" href="#">Servicepoint</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Palettenbox</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-2 mb-3">
+          <h5>Hilfe</h5>
+          <ul class="nav flex-column">
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">AGB</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted mb-2 p-0">Datenschutz</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted  mb-2 p-0">Downloads</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted  mb-2 p-0">Karriere</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted  mb-2 p-0">Impressum</a></li>
+            <li><a href="./faq.html" class="nav-link p-0 text-muted  mb-2 p-0">FAQs</a></li>
+            <li><a href="#" class="nav-link p-0 text-muted  mb-2 p-0">Cookies</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-md-5 offset-md-1 mb-3">
+          <form>
+            <h5>Subscribe to our newsletter</h5>
+            <p>Monthly digest of what's new and exciting from us.</p>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+              <label for="newsletter1" class="visually-hidden">Email address</label>
+              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+              <button class="btn btn-danger" type="button">Subscribe</button>
+
+            </div>
+          </form>
+          <div class="mt-5">
+            <a href="#">
+
+              <img class="lazyload" style="height:40px ;" data-src="./img/sitec-logo.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+        <p>© 2022 Locktec, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-instagram fa-2x"></i></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-youtube fa-2x"></i></a></li>
+          <li class="ms-3"><a class="link-dark" href="#"><i class="bi bi-facebook fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+    
+</section>
+
+<!-- End footer -->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/62a82edbb0d10b6f3e773793/1g5gl8amh';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+
+
+
+<script src="jquery.js"></script>
+<script src="owl.carousel.min.js"></script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/ca11177b7a.js" crossorigin="anonymous"></script>
+
+  <script src="app.js"></script>
+</body>
+</html>
